@@ -35,8 +35,19 @@
 
         header {
             text-align: center;
-            padding: 60px 20px;
+            padding: 50px 20px 40px;
             border-bottom: 1px solid var(--border-color);
+        }
+
+        /* Profile Image Styling */
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent-color);
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
         }
 
         h1 {
@@ -175,12 +186,13 @@
     <div class="container">
         <!-- Header -->
         <header>
+            <img src="swapnadip.jpeg" alt="Swapnadip Mondal" class="profile-img">
             <h1>Swapnadip Mondal</h1>
             <p class="subtitle">BCA Student | Web Development | Aspiring Software & AI Professional</p>
             <p class="location">Kolkata, West Bengal, India</p>
             <div class="btn-group">
                 <a href="https://github.com/swapnadipmondal-ux" class="btn btn-primary" target="_blank">GitHub Profile</a>
-                <a href="https://www.linkedin.com/in/swapnadipmondal-339a46354" class="btn btn-secondary" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/swapnadip-mondal-339a46354" class="btn btn-secondary" target="_blank">LinkedIn</a>
                 <a href="tel:+916296314411" class="btn btn-secondary">Contact Me</a>
             </div>
         </header>
